@@ -1,0 +1,27 @@
+#login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 30px;
+}
+
+#login-form input {
+  padding: 23px 0px;
+  font-size: 20px;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#login-form ::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+#login-form :nth-child(3) {
+  margin: 35px 0px;
+  border-bottom: none;
+}
+
+#login-form a {
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+}

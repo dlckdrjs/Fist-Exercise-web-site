@@ -1,0 +1,17 @@
+.screen-header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 100px;
+}
+
+.screen-header__title {
+  font-size: 27px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.screen-header__text {
+  opacity: 0.6;
+  font-size: 18px;
+}

@@ -2,57 +2,41 @@
 <html lang="korean">
   <head>
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Twitter</title>
+    <title>Index</title>
   </head>
   <body>
-    <form id="login-form">
-      <input type="text" placeholder="휴대폰, 이메일, 사용자 아이디" />
-      <input type="password" placeholder="비밀번호" />
-      <input type="submit" value="로그인" />
-      <a href="#">비밀번호를 잊으셨나요?</a>
-    </form>
-
-    <div class="decoration">
-      <i class="fa-solid fa-magnifying-glass fa-lg"></i>
-      <span class="decoration__text">관심사를 팔로우하세요.</span>
-
-      <i class="fa-solid fa-user-group fa-lg"></i>
-      <span class="decoration__text"
-        >사람들이 무엇에 대해 이야기하고 있는지 알아.</span
-      >
-
-      <i class="fa-solid fa-comment fa-lg"></i>
-      <span class="decoration__text">대화에 참여하세요.</span>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>11%</span>
+        <i class="fa-solid fa-battery-full"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
     </div>
 
-    <header class="welcome-header">
-      <!--twitter Icon-->
-      <h1 class="welcome-header__title">
-        지금 전 세계에서 무슨 일이 일어나고 있느지 알아보세요
-      </h1>
+    <header class="screen-header">
+      <h1 class="screen-header__title">Welcome to KokoaTalk</h1>
+      <span class="screen-header__text"
+        >If you have Kokoa Account, log in with your email or phone
+        number.</span
+      >
     </header>
 
-    <form>
-      <h5>오늘 트위터에 가입하세요.</h5>
-      <a href="#">가입하기</a>
-      <a href="#">로그인</a>
+    <form id="login-form">
+      <input type="text" placeholder="Email or phone number" />
+      <input type="password" placeholder="Password" />
+      <input type="submit" value="Log in" />
+      <a href="#">Find Kokoa Account or Password</a>
     </form>
-
-    <div>
-      <span
-        >소개 소객센터 이용약관 개인정보 쿠키 광고 정보 블로그 상태 채용 브랜드
-        관고 마케팅 브지니스 개발자 디렉터리 설정 2020 Twitter, Inc.</span
-      >
-    </div>
 
     <script
       src="https://kit.fontawesome.com/496c1ca3e6.js"
